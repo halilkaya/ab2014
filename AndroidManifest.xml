@@ -30,10 +30,19 @@
             android:name="sayfalar.YeniKayit"
             android:label="@string/title_activity_yeni_kayit" >
         </activity>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4c2f7eae4d1aa2a0cb314b571db70a9ae60d24a9
         <activity
             android:name="sayfalar.Duzenle"
             android:label="@string/title_activity_duzenle" >
         </activity>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> aeb708d55ad8889e60c7bd0594157667a68c9e7a
+>>>>>>> 4c2f7eae4d1aa2a0cb314b571db70a9ae60d24a9
     </application>
 
 </manifest>

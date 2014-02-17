@@ -2,7 +2,11 @@
 
     <item
         android:id="@+id/menu_kaydet"
+<<<<<<< HEAD
         android:showAsAction="ifRoom"
+=======
+        android:showAsAction="ifRoom" 
+>>>>>>> 4c2f7eae4d1aa2a0cb314b571db70a9ae60d24a9
         android:title="Kaydet"/>
 
 </menu>
