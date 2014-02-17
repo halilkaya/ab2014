@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Duzenle" >
+    
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+		    
+            <TextView
+		        android:id="@+id/adsoyad_etiket"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="14sp"
+		        android:text="Ad-Soyad"
+		        android:padding="10dp"
+		        android:textStyle="bold"
+		        android:background="#e0ecff"
+		        android:textColor="#00225a" />
+		    
+		    <EditText
+		        android:id="@+id/adsoyad"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:padding="10dp"
+		        android:textColor="#00225a"
+		        android:inputType="textCapWords"
+		        android:layout_below="@+id/adsoyad_etiket" />
+            
+		    <TextView
+		        android:id="@+id/sabit_tel_etiket"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="14sp"
+		        android:text="Sabit Telefon"
+		        android:padding="10dp"
+		        android:layout_marginTop="25dp"
+		        android:textStyle="bold"
+		        android:background="#e0ecff"
+		        android:textColor="#00225a"
+		        android:layout_below="@+id/adsoyad" />
+		    
+		    <EditText
+		        android:id="@+id/sabit_tel"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:padding="10dp"
+		        android:textColor="#00225a"
+		        android:inputType="phone"
+		        android:layout_below="@+id/sabit_tel_etiket" />
+		    
+		    <TextView
+		        android:id="@+id/cep_tel_etiket"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="14sp"
+		        android:text="Cep Telefonu"
+		        android:padding="10dp"
+		        android:layout_marginTop="25dp"
+		        android:textStyle="bold"
+		        android:background="#e0ecff"
+		        android:textColor="#00225a"
+		        android:layout_below="@+id/sabit_tel" />
+		    
+		    <EditText
+		        android:id="@+id/cep_tel"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:padding="10dp"
+		        android:textColor="#00225a"
+		        android:inputType="phone"
+		        android:layout_below="@+id/cep_tel_etiket" />
+		    
+		    <TextView
+		        android:id="@+id/adres_etiket"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="14sp"
+		        android:text="Adres"
+		        android:padding="10dp"
+		        android:layout_marginTop="25dp"
+		        android:textStyle="bold"
+		        android:background="#e0ecff"
+		        android:textColor="#00225a"
+		        android:layout_below="@+id/cep_tel" />
+		    
+		    <EditText
+		        android:id="@+id/adres"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:padding="10dp"
+		        android:textColor="#00225a"
+		        android:inputType="textCapSentences"
+		        android:layout_below="@+id/adres_etiket" />
+		    
+		    <TextView
+		        android:id="@+id/resim_etiket"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="14sp"
+		        android:text="Resim"
+		        android:padding="10dp"
+		        android:layout_marginTop="25dp"
+		        android:textStyle="bold"
+		        android:background="#e0ecff"
+		        android:textColor="#00225a"
+		        android:layout_below="@+id/adres" />
+		    
+		    <Spinner
+		        android:id="@+id/resim"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:padding="10dp"
+		        android:textColor="#00225a"
+		        android:layout_below="@+id/resim_etiket" />
+    
+    	</RelativeLayout>
+    	
+    </ScrollView>
+
+</RelativeLayout>

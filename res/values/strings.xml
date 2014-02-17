@@ -6,5 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_detaylar">Detaylar</string>
     <string name="title_activity_yeni_kayit">Yeni Kayıt</string>
+    <string name="title_activity_duzenle">Düzenle</string>
 
 </resources>

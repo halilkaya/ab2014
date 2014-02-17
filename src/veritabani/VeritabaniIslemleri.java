@@ -92,4 +92,26 @@ public class VeritabaniIslemleri {
 		
 	}
 	
+	public void kayitSil(int no) {
+		
+		yazilabilir.execSQL("DELETE FROM kayitlar WHERE no=" + no);
+		
+	}
+	
+	public void kayitDuzenle(
+			int no,
+			String adsoyad,
+			String sabit_tel,
+			String cep_tel,
+			String adres,
+			String resim) {
+
+		yazilabilir.execSQL("UPDATE kayitlar SET adsoyad='" + adsoyad + "', " +
+												"sabit_tel='" + sabit_tel + "', " +
+												"cep_tel='" + cep_tel + "', " +
+												"adres='" + adres + "', " +
+												"resim='" + resim+ "' WHERE no=" + no);
+	
+	}
+	
 }

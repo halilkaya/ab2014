@@ -30,6 +30,10 @@
             android:name="sayfalar.YeniKayit"
             android:label="@string/title_activity_yeni_kayit" >
         </activity>
+        <activity
+            android:name="sayfalar.Duzenle"
+            android:label="@string/title_activity_duzenle" >
+        </activity>
     </application>
 
 </manifest>
