@@ -30,6 +30,13 @@
             android:name="sayfalar.YeniKayit"
             android:label="@string/title_activity_yeni_kayit" >
         </activity>
+<<<<<<< HEAD
+        <activity
+            android:name="sayfalar.Duzenle"
+            android:label="@string/title_activity_duzenle" >
+        </activity>
+=======
+>>>>>>> aeb708d55ad8889e60c7bd0594157667a68c9e7a
     </application>
 
 </manifest>

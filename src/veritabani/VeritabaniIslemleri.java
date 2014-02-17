@@ -92,7 +92,6 @@ public class VeritabaniIslemleri {
 		
 	}
 	
-
 	public void kayitSil(int no) {
 		
 		yazilabilir.execSQL("DELETE FROM kayitlar WHERE no=" + no);
