@@ -1,6 +1,7 @@
 package com.mersin.ab2014androidb;
 
 import sayfalar.Detaylar;
+<<<<<<< HEAD
 import sayfalar.Duzenle;
 import sayfalar.YeniKayit;
 import veritabani.VeritabaniIslemleri;
@@ -8,15 +9,24 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
+=======
+import sayfalar.YeniKayit;
+import veritabani.VeritabaniIslemleri;
+import android.app.Activity;
+>>>>>>> aeb708d55ad8889e60c7bd0594157667a68c9e7a
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+<<<<<<< HEAD
 import android.widget.Toast;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
+=======
+import android.widget.AdapterView.OnItemClickListener;
+>>>>>>> aeb708d55ad8889e60c7bd0594157667a68c9e7a
 import android.widget.ListView;
 
 public class MainActivity extends Activity {
@@ -65,6 +75,7 @@ public class MainActivity extends Activity {
 			}
 		});
 		
+<<<<<<< HEAD
 		// Listedeki her bir item'a uzun basılınca yapılacak olan action'ı tanımlıyoruz:
 		liste.setOnItemLongClickListener(new OnItemLongClickListener() {
 
@@ -144,6 +155,8 @@ public class MainActivity extends Activity {
 			}
 		});
 		
+=======
+>>>>>>> aeb708d55ad8889e60c7bd0594157667a68c9e7a
 	}
 	
 	// Yeni kayıt eklendikten ve bir kayıt düzenlendikten sonra bu ekrana dönüldüğünde

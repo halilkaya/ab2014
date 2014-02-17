@@ -92,6 +92,7 @@ public class VeritabaniIslemleri {
 		
 	}
 	
+<<<<<<< HEAD
 	public void kayitSil(int no) {
 		
 		yazilabilir.execSQL("DELETE FROM kayitlar WHERE no=" + no);
@@ -114,4 +115,6 @@ public class VeritabaniIslemleri {
 	
 	}
 	
+=======
+>>>>>>> aeb708d55ad8889e60c7bd0594157667a68c9e7a
 }
