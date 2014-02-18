@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp" >
+    
+    <ImageView
+        android:id="@+id/liste_resim"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/anchor" />
+    
+    <TextView
+        android:id="@+id/liste_adsoyad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/liste_resim"
+        android:text="Ad Soyad"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="14dp" />
+    
+    <TextView
+        android:id="@+id/liste_cep_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_toRightOf="@+id/liste_resim"
+        android:layout_below="@+id/liste_adsoyad"
+        android:text="539 123 45 67"
+        android:layout_marginLeft="20dp" />
+
+</RelativeLayout>
